@@ -1,0 +1,153 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#nav{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    
+}
+#interface{
+    display: flex;
+    gap: 50px;
+    margin-bottom:50px ;
+}
+#dit{
+    border: solid;
+    border-color: brown;
+}
+#ditio{
+    display: flex;
+    gap: 30px;
+}
+#dolor{
+    margin-bottom: 50px;
+}
+#clients{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 200px;
+}
+#copy{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 30px;
+    padding: 20px;
+}
+#top{
+    display: flex;
+    background-color: blue;
+    color: white;
+    gap: 30px;
+    padding: 50px;
+    padding-right: 200px;
+}
+#user{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 50px;
+    
+    
+}
+#store{
+    display: flex;
+    gap: 30px;
+}
+#app{
+    border-radius: 20px;
+    /* padding: 10px; */
+    /* width: 30px; */
+    /* height: 30px;
+    background-color: #252849;
+    color: white; */
+}
+#group{
+    display: flex;
+    gap: 100px;
+}
+#play{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+#prg{
+    width: 1px;
+    height: 2px;
+    display: flex;
+}
+#beth{
+    border: solid;
+    border-color: brown;
+}
+#bet{
+    display: flex;
+}
+#gbet{
+    background-color: #252849;
+}
+#sign{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 20;
+}
+#login{
+    color: black;
+    border-radius: 20;
+}
+#Tim{
+    text-align: right;
+}
+#customer{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#size{
+    font-size: xx-large;
+}
+#watch{
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+}
+#create{
+    display: flex;
+    gap: 20px;
+}
+#button{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 20px;
+}
+#person{
+    display: flex;
+}
+
+.pics{
+    border-radius: 200px;
+    width: 70px;
+}
+#way{
+    display: flex;
+    margin-bottom: 100px;
+    gap: 30px;
+}
+#monthly{
+    display: flex;
+}
+.pic{
+    width: 150px;
+}
+
+@media screen and (min-width:375) and (max-width:775){
+    #nav{
+        flex-direction: column;
+        gap: 5px;
+    }
+    #clients{
+        gap: 10px;
+    }
+}
